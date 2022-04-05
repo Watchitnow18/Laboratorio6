@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/37b6c01086.js" crossorigin="anonymous"></script>
+
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body class="bg-dark" id="fondo">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand me-auto" id="pagina0" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina1" href="pagina1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina2" href="pagina2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina3" href="pagina3.html">Página 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-white text-center ">Películas que ofrece Disney+</h1><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img4.jfif" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Red</h5>
+                        <p class="card-text">Mei Lee, una niña de 13 años un poco rara pero segura de sí misma, que se debate entre seguir siendo la hija obediente que su madre quiere que sea y el caos de la adolescencia.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/movies/red/4mFPCXJi7N2m"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal1">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img5.jfif" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Raya and The Last Dragon</h5>
+                        <p class="card-text">En el fantástico mundo de Kumandra, humanos y dragones vivieron juntos en perfecta armonía. Sin embargo, cuando unas fuerzas del mal amenazaron el territorio, los dragones se sacrificaron para salvar a la humanidad.</p><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/movies/raya-y-el-ultimo-dragon/6dyengbx3iYK"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal2">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img6.jpg" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Eternals</h5>
+                        <p class="card-text">Los Eternos son una raza de seres inmortales con poderes sobrehumanos que han vivido en secreto en la Tierra durante miles de años. Aunque nunca han intervenido en el destino de la población, ahora una amenaza se cierne sobre la humanidad.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/movies/eternals/5cmhJAtkt6Jk"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal3">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Red</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Personajes:</b> Ming Lee, Meilin « Mei » Lee, Priya Mangal, Devon, MÁS Tendencia<br>
+                            <b>Fecha de estreno inicial:</b> 21 de febrero de 2022<br>
+                            <b>Directora:</b> Domee Shi<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Raya and The Last Dragon</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Fecha de estreno:</b> 5 de marzo de 2021 (Estados Unidos)<br>
+                            <b>Directores:</b> Carlos López Estrada, Don Hall<br>
+                            <b>Recaudación:</b> $130 423 032<br>
+                            <b>País:</b> Estados Unidos<br>
+                            <b>Presupuesto:</b> $100 millones+<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Eternals</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Fecha de estreno:</b> 5 de noviembre de 2021 (Estados Unidos)<br>
+                            <b>Directora:</b> Chloé Zhao<br>
+                            <b>Recaudación:</b> $402 064 899<br>
+                            <b>Presupuesto:</b> $200 millones<br>
+                            <b>Productora:</b> Marvel Studios<br>
+                            <b>Año:</b> 2021<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+        <script>
+            window.onload = function () {
+                document.getElementById("pagina2").style.color = "yellow";
+            }
+        </script>
+</body>
+
+</html>

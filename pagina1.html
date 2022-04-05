@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/37b6c01086.js" crossorigin="anonymous"></script>
+
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body class="bg-dark" id="fondo">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand me-auto" id="pagina0" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina1" href="pagina1.html">Página 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina2" href="pagina2.html">Página 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pagina3" href="pagina3.html">Página 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-white text-center ">Series que ofrece Disney+</h1><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img1.png" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Loki</h5>
+                        <p class="card-text">Loki, el Dios de las Mentiras, se aleja de la sombra de su hermano para embarcarse en una aventura que se desarrolla tras los acontecimientos de "Vengadores: Endgame".</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/series/loki/6pARMvILBGzF"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal1">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img2.jpg" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">WandaVision</h5>
+                        <p class="card-text">Con vidas suburbanas idealizadas, los seres superpoderosos Wanda y Vision comienzan a sospechar que nada es lo que parece.</p><br>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/series/wandavision/4SrN28ZjDLwH"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal2">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./img/img3.jfif" class="card-img-top" height="200px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">The Mandalorian</h5>
+                        <p class="card-text">Las aventuras de Mando, un pistolero solitario y cazarrecompensas que se
+                            abre paso a través de las fronteras más remotas de la galaxia, lejos de la jurisdicción de
+                            la Nueva República.</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <a target="_blank" href="https://www.disneyplus.com/es-419/series/the-mandalorian/3jLIGMDYINqD"
+                                        class="btn btn-primary text-center w-100">Ver en Disney+</a>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#modal3">
+                                        Ver información
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Loki</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Primer episodio:</b> 9 de junio de 2021<br>
+                            <b>Cantidad de episodios:</b> 6<br>
+                            <b>N.º de episodios:</b> 6 (lista de episodios)<br>
+                            <b>N.º de temporadas:</b> 1<br>
+                            <b>Duración:</b> 42-50 minutos<br>
+                            <b>Dirigido por:</b> Kate Herron<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">WandaVision</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Primer episodio:</b> 15 de enero de 2021<br>
+                            <b>Último episodio:</b> 5 de marzo de 2021<br>
+                            <b>Cantidad de episodios:</b> 9<br>
+                            <b>Dirigido por:</b> Matt Shakman<br>
+                            <b>Basado en:</b> Bruja Escarlata, de Stan Lee y Jack Kirby; Visión, de Roy Thomas y John Buscema<br>
+                            <b>Duración:</b> 29-46 minutos<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">The Mandalorian</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <b>Cantidad de temporadas:</b> 2<br>
+                            <b>Director:</b> Jon Favreau<br>
+                            <b>Cantidad de episodios:</b> 16<br>
+                            <b>Fecha de lanzamiento:</b> 12 de noviembre de 2019<br>
+                            <b>Productor(es) ejecutivo(s):</b> Jon Favreau; Dave Filoni; Kathleen Kennedy; Colin Wilson<br>
+                            <b>Presupuesto:</b> $100 000 000 (t. 1)<br>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+
+        <script>
+            window.onload = function () {
+                document.getElementById("pagina1").style.color = "yellow";
+            }
+        </script>
+</body>
+
+</html>
