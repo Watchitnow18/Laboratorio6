@@ -1,0 +1,24 @@
+.imgindex{
+    width: 80%;
+}
+.hola{
+    text-align: center;
+    margin: auto;
+}
+#fondo{
+    background: url(../img/fondo.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
